@@ -1,0 +1,292 @@
+*{
+    
+    padding: 0px;
+    margin:auto;
+}
+.container{
+    background-color:whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+    
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+@media(max-width: 768px){
+    .container{
+        padding: 10px;
+    }
+}
+@media(max-width: 480px){
+    .container{
+        padding: 5px;
+    }
+}
+.logo{
+    text-decoration: none;
+    color:greenyellow;
+    font-size:20px;
+    font-weight: 1000;
+    margin-top: 3px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebu
+    position MS', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 5%;
+    color: white;
+    border-radius: 5px;
+    
+    
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     gap: 20px;
+
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    
+    padding: 0px;
+    margin: 0px;
+    
+    
+
+    
+
+    
+}
+    
+
+    
+
+nav ul li a:hover{
+    color: green;
+    font-weight: 900;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url("images/IMG-20250902-WA0015.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+
+    
+    
+}
+
+.home div h1{
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.blue{
+    color: #4CAF50;
+    font-style:inherit;
+}
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    color: blue;
+}
+.home div a{
+    text-decoration:none;
+    text-align: center;
+    font-size:30px;
+    font-style: normal;
+    font-weight:30px;
+}
+.home-img img{
+    width: 150px;
+    height:300px;
+    display: flex;
+    margin: 3px;
+    
+}
+
+.catalogue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color:lightgrey;
+    height: 100v;
+    text-decoration:none ;
+    border-radius: 10px;
+    margin:20px
+}
+.app{
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 30px;
+    background-color:#4CAF50;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 00 10px rgba(76,175,80,0.5);
+    height: 100v;
+    transition: all 0.3s ease-in-out;
+    text-decoration:none ;
+    border-radius: 10px;
+    margin:20px
+}
+.app:hover{
+    box-shadow:0 0 20px rgba(76,175,80,1);
+    transform: scale(1.1);
+}
+.app:active{
+     box-shadow:0 0 10px rgba(76,175,80,1);
+    transform: scale(0.9);
+}
+.h3{
+    color: blue;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+}
+.picture img{
+    width: 100%;
+    height: 500px;
+    
+    margin: 3px;
+    border-radius: 10px;
+    
+    
+}
+.picture img{
+    animation: zoomIn 10s infinite;
+}
+@keyframes zoomIn{
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+.skills{
+    display: block;
+    margin:20px
+}
+.skills ul{
+    list-style-type: square;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+     gap: 20px;
+}
+
+
+.footer{
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    
+}
+.footer a{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    text-decoration: none;
+    padding: 5px;
+
+    
+}
+.footer a:hover{
+    color: green;
+}
+    
+.about{
+    display:inline-block;
+    margin:px;
+    padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    text-align: cente;
+    color: #1da1f2;
+}
+.about a{
+    text-decoration: none;
+    color: #337ab7;
+    display: block;
+    padding: 20px;
+    
+    
+}
+.fa-square-facebook{
+    color: #3b5998;
+    font-size: 70px;
+}
+.fa-square-twitter{
+    color: #1da1f2;
+    font-size: 70px;
+}
+.fa-square-instagram{
+    color: #e1306c;
+    font-size: 70px;
+}
+.fa-whatsapp{
+    color: #25d366;
+    font-size: 70px;
+}
+.fa-envelope{
+    color: #d44638;
+    font-size: 70px;
+}
+
+
+.about app{
+    text-decoration: none;
+    color: #337ab7;
+    display: block;
+    padding: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+
